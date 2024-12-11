@@ -53,6 +53,12 @@ export const fetchData = async (query) => {
       ],
       is_day: current.is_day,
     },
+    astro: {
+      sunrise: forecast.forecastday[0].astro.sunrise,
+      sunset: forecast.forecastday[0].astro.sunset,
+      moonrise: forecast.forecastday[0].astro.moonrise,
+      moonset: forecast.forecastday[0].astro.moonset,
+    },
     air: {
       feelslike_c: current.feelslike_c,
       uv: current.uv,

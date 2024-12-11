@@ -1,4 +1,4 @@
-import { Skeleton, Stack } from "@chakra-ui/react";
+import { Box, HStack, Skeleton, Stack, Text, VStack } from "@chakra-ui/react";
 import { Navbar } from "@/components/Navbar";
 import { TodayForecast } from "@/components/TodayForecast";
 import { DaysForecast } from "@/components/DaysForecast";
@@ -7,6 +7,7 @@ import { AirConditions } from "@/components/AirConditions";
 import { fetchData } from "@/helpers/fetchData";
 import { useEffect, useState } from "react";
 import SearchInput from "@/components/SearchInput";
+import { Astro } from "@/components/Astro";
 
 export default function Home() {
   const [query, setQuery] = useState("530075");
@@ -30,23 +31,23 @@ export default function Home() {
   }, [query]);
 
   return (
-    <>
-      <Stack height="fit-content">
+    <HStack>
+      {/* <Navbar /> */}
+      <Stack height="100%">
         <SearchInput
           value={searchValue}
           setValue={setSearchValue}
           query={query}
           setQuery={setQuery}
         />
-
         <MainForecast main={data.main} loading={loading} />
-
         <TodayForecast hour={data.hour} loading={loading} />
-
         <AirConditions air={data.air} loading={loading} />
       </Stack>
-
-      <DaysForecast days={data.days} loading={loading} />
-    </>
+      <VStack height={"100%"}>
+        <DaysForecast days={data.days} loading={loading} />
+        <Astro astro={data.astro} />
+      </VStack>
+    </HStack>
   );
 }
