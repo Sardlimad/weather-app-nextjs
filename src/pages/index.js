@@ -1,5 +1,4 @@
-import { Box, HStack, Skeleton, Stack, Text, VStack } from "@chakra-ui/react";
-import { Navbar } from "@/components/Navbar";
+import { HStack, Stack, VStack } from "@chakra-ui/react";
 import { TodayForecast } from "@/components/TodayForecast";
 import { DaysForecast } from "@/components/DaysForecast";
 import { MainForecast } from "@/components/MainForecast";
