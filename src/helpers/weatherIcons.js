@@ -38,31 +38,31 @@ const weatherIcons = {
   // Lluvia Ligera / Lluvia Moderada
   1063: {
     day: "/icons/icons8-lluvia-ligera-100.png",
-    night: "/icons/cicons8-lluvia-ligera-100.png",
+    night: "/icons/icons8-lluvia-ligera-100.png",
   },
   1150: {
     day: "/icons/icons8-lluvia-ligera-100.png",
-    night: "/icons/cicons8-lluvia-ligera-100.png",
+    night: "/icons/icons8-lluvia-ligera-100.png",
   },
   1153: {
     day: "/icons/icons8-lluvia-ligera-100.png",
-    night: "/icons/cicons8-lluvia-ligera-100.png",
+    night: "/icons/icons8-lluvia-ligera-100.png",
   },
   1180: {
     day: "/icons/icons8-lluvia-ligera-100.png",
-    night: "/icons/cicons8-lluvia-ligera-100.png",
+    night: "/icons/icons8-lluvia-ligera-100.png",
   },
   1183: {
     day: "/icons/icons8-lluvia-ligera-100.png",
-    night: "/icons/cicons8-lluvia-ligera-100.png",
+    night: "/icons/icons8-lluvia-ligera-100.png",
   },
   1186: {
     day: "/icons/icons8-lluvia-ligera-100.png",
-    night: "/icons/cicons8-lluvia-ligera-100.png",
+    night: "/icons/icons8-lluvia-ligera-100.png",
   },
   1189: {
     day: "/icons/icons8-lluvia-ligera-100.png",
-    night: "/icons/cicons8-lluvia-ligera-100.png",
+    night: "/icons/icons8-lluvia-ligera-100.png",
   },
 
   // Lluvia Intensa
