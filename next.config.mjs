@@ -4,4 +4,4 @@ const nextConfig = {
   output: "export",
 };
 
-export default nextConfig;
+module.export = nextConfig;
