@@ -4,7 +4,7 @@ import weatherIcons from "./weatherIcons";
 export const fetchData = async (query) => {
   const key = "0f6ce5eee14b40b994545816241504"; //api key
   const daysFC = 3; // Dias de pronóstico
-  const url = `http://api.weatherapi.com/v1/forecast.json?key=${key}&q=id:${encodeURI(
+  const url = `https://api.weatherapi.com/v1/forecast.json?key=${key}&q=id:${encodeURI(
     query
   )}&days=${daysFC}`; //api url
 
